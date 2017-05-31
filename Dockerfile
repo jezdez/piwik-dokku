@@ -1,4 +1,4 @@
-FROM piwik:3
+FROM piwik:3.0.0
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends --no-install-suggests -y \
